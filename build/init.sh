@@ -7,6 +7,7 @@ BLUE='\033[0;34m'
 NC='\033[0m'
 
 echo -e "${GREEN}One-KVM pre-starting...${NC}"
+echo "device" | tee /sys/class/usb_role/c9040000.usb-role-switch/role
 
 if [ ! -f /etc/kvmd/.init_flag ]; then
     echo -e "${GREEN}One-KVM is initializing first...${NC}" \
