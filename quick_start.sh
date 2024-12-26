@@ -1,7 +1,7 @@
 #!/bin/bash
 #Install Latest Stable One-KVM Dcoker Release
 
-DOCKER_IMAGE_PATH="registry.cn-hangzhou.aliyuncs.com/silentwind/kvmd"
+DOCKER_IMAGE_PATH="crpi-ofh9eows662r8dot.cn-beijing.personal.cr.aliyuncs.com/liudur/onekvm"
 DOCKER_PORT="-p 8080:8080 -p 4430:4430 -p 5900:5900 -p 623:623"
 DOCKER_NAME="kvmd"
 RED='\033[0;31m'
