@@ -21,7 +21,7 @@ function getCookie(name)
     return ""
 }
 
-var i18nLanguage = "zh";
+var i18nLanguage = "en";
 
 $(document).ready(function() {
      if (getCookie('userLanguage')) {
