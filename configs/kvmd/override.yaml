@@ -120,19 +120,19 @@ kvmd:
                 switch: false
         view:
             header:
-                title: 高级功能
+                title: Advance
             table:
-                - ["#电源管理"]
-                - ["#短按（开/关机）:", short_button|按下]
-                - ["#长按（强制关机）:", long_button|按下]
-                - ["#重启:", reset_button|按下]
+                - ["#Power"]
+                - ["#Power on/off:", short_button|Press]
+                - ["#Force poweroff:", long_button|Press]
+                - ["#Reboot:", reset_button|Press]
                 - []
-                - ["#网络唤醒"]
-                - ["#被控机设备", wol_server1|网络唤醒]
+                - ["#Wake on LAN"]
+                - ["#Client", wol_server1|Execute]
                 - []
-                - ["#KVM 切换"]
-                - ["#HDMI 1", input1-button|切换]
-                - ["#HDMI 2", input2-button|切换]
+                - ["#KVM Switch"]
+                - ["#HDMI 1", input1-button|Switch]
+                - ["#HDMI 2", input2-button|Switch]
 
 
 vnc:
