@@ -158,6 +158,6 @@ otgnet:
 
 nginx:
     http:
-        port: 8080
+        port: 80
     https:
-        port: 4430
+        port: 443
